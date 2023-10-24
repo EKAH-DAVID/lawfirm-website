@@ -63,11 +63,13 @@ body {
   /*color: #818080; !!!!!*/
   /*color: #757575;*/
   text-align: left;
-  background-color: #161616;
+  /* background-color: #161616; */
+  /* background-color: #030216; */
+  background-color:#07070e ;
 }
+#07070e
+#080811
 
-#090817
-#090817
 
 .timeline-section{
     /* background-color: rgb(62, 62, 62); */
@@ -85,7 +87,7 @@ body {
 }
 
 .timeline-items{
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -110,9 +112,10 @@ body {
 }
 
 .timeline-content{
-    background-color: rgb(49, 49, 49);
+    /* background-color: rgb(32 32 44); */
     padding: 30px;
     border-radius: 5px;
+    border: rgb(63, 59, 115) 1px solid;
 }
 
 .timeline-items::before{
@@ -178,12 +181,18 @@ body {
     .timeline-dot{
         left: 0;
     }
+    .timeline-items{
+      max-width: 81% !important;
+    }
+
 }
+
 
 
 .r1{
   border-radius:  50% !important;
   max-width: 80% !important;
+  border: grey 1px solid !important;
 }
 
 .py-6{
@@ -237,14 +246,14 @@ p {
 
 hr{
     margin: 0rem 0;
-    color: inherit;
+    color:rgb(126, 117, 243);
     background-color: currentColor;
     border: 0;
     opacity: .25;
     width: 60% ;
 }
 
-
+border: rgb(63, 59, 115) 1px solid;
 
 
 abbr[title],
@@ -588,6 +597,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+  color: rgb(167, 167, 167) !important;
 }
 
 .lead {
@@ -6548,7 +6558,9 @@ button.bg-primary:focus {
 
 .bg-secondary {
   /*background-color: #25252a !important;*/
-  background-color: #262629 !important;
+  /* background-color: #262629 !important; */
+  /* background-color: #0c0c20 !important; */
+  background-color: #13131a !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6619,7 +6631,8 @@ button.bg-dark:focus {
 
 .bg-white {
   /*background-color: white !important; !!!!!!!*/
-  background-color: #212125 !important;
+  background-color: #13131a !important;
+  border: grey 0.1px solid !important;
 }
 
 
@@ -8044,7 +8057,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 4rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .pl-5,
@@ -9711,7 +9724,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #B49C73 !important;
+  /* color: #B49C73 !important; */
+  color: #d3a75d !important;
   /* color: #a38450 !important; */
 }
 
