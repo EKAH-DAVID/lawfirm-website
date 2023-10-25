@@ -6640,7 +6640,7 @@ button.bg-dark:focus {
   border: grey 0.1px solid ;
 }
 
-@media(max-width: 767px){
+@media(max-width: 890px){
     .bg-white {
     
     border: rgb(0, 0, 0) 0.1px solid !important;
