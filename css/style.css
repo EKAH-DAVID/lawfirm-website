@@ -185,6 +185,11 @@ body {
       max-width: 81% !important;
     }
 
+    .bg-white {
+    
+    border: rgb(0, 0, 0) 0.1px solid !important;
+}
+
 }
 
 
@@ -6634,6 +6639,16 @@ button.bg-dark:focus {
   background-color: #13131a !important;
   border: grey 0.1px solid !important;
 }
+
+@media(max-width: 767px){
+    .bg-white {
+    
+    border: rgb(0, 0, 0) 0.1px solid !important;
+}
+
+}
+
+
 
 
 
