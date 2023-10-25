@@ -71,6 +71,7 @@ body {
 #080811
 
 
+
 .timeline-section{
     /* background-color: rgb(62, 62, 62); */
     min-height: 100vh;
@@ -10127,4 +10128,10 @@ h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+
+.color-change{
+  text-decoration: none !important;
 }
